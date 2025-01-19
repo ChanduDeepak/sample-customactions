@@ -1,0 +1,17 @@
+name: "Hello World JS Action"
+description: "Say Hi and track the time"
+author: "Deepak Sai Chand"
+
+inputs:
+  who-to-greet:
+    description: 'Who to greet'
+    required: true
+    default: 'Hi Custom World'
+
+outputs:
+  time:
+    description: 'The time we said Hi'
+
+runs:
+  using: 'node16'
+  main: 'index.js'
